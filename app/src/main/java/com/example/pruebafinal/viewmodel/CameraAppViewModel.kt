@@ -12,6 +12,7 @@ class CameraAppViewModel : ViewModel() {
     var onPermisoUbicacionOk: () -> Unit = {}
     // lanzador permisos
     var lanzadorPermisos: ActivityResultLauncher<Array<String>>? = null
+    fun cambiarPantallaLista(){ pantalla.value = Pantalla.LISTA }
     fun cambiarPantallaFoto(){ pantalla.value = Pantalla.CAMARA }
     fun cambiarPantallaForm(){ pantalla.value = Pantalla.FORM }
 }

@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">pruebafinal</string>
+    <string name="lugar_vacaciones">Lugar de vacaciones</string>
+    <string name="lista_lugares">Lista de lugares</string>
+    <string name="agregar_lugar">Agregar Lugar</string>
+
+    <string name="imagen">Imagen</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="orden">Orden</string>
+    <string name="costo_alojamiento">Costo alojamiento por noche</string>
+    <string name="costo_traslados">Costo traslados</string>
+    <string name="comentarios">Comentarios</string>
+
+
+
 </resources>

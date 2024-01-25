@@ -5,8 +5,13 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 
 class FormRegistroVM : ViewModel(){
-    val lugar = mutableStateOf("")
-    val latitud = mutableStateOf(0.0)
-    val longitud = mutableStateOf(0.0)
-    val fotoLugar = mutableStateOf<Uri?>(null)
+    val nombre = mutableStateOf("")
+    val latitud = mutableStateOf("")
+    val longitud = mutableStateOf("")
+    val fotoLugar =  mutableStateOf<Uri?>(null)
+    var ordenVisita = mutableStateOf("")
+    var imagenReferenciaId = mutableStateOf("")
+    var costoAlojamiento = mutableStateOf("")
+    var costoTransporte = mutableStateOf("")
+    var comentariosAdicionales = mutableStateOf("")
 }
